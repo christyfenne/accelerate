@@ -16,6 +16,7 @@
 
 get_header(); ?>
 	<!-- BLOG PAGE -->
+
 	<section class="blog-page">
 		<div class="site-content">
 			<div class="main-content">
