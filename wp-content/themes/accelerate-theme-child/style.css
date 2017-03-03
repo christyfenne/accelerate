@@ -18,21 +18,39 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+#menu-top-nav {
+    margin: 0 0 2px;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+#primary-navigation ul li {
+    float: left;
+}
+
+#primary-navigation ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.top-nav {
+	padding-top: 0px;
 }
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
-
-#masthead nav ul li {
-    float: left;
-    margin: -20px 10px;
+.recent-posts {
+    margin: auto;
 }
 
 .blog-post {
-    width: 50%;
+    width: 40%;
+    float: left;
 }
 
 .blog-post h4 {
@@ -55,6 +73,43 @@
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+
+
+.recent-tweets-bar {
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+}
+
+.recent-tweets-bar h3, .recent-tweets-bar h3 a {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 36px 0 12px 10px;
+
+}
+
+
+.tweets li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin: 36px 0 12px;
+    font-weight: normal;
+}
+
+.tweets li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #45ac9d
+}
+
+.twitter-follow-container{
+    margin: 36px 0 12px 20px;
+}
+
 
 .featured-work h4 {
     text-transform: uppercase;
@@ -81,6 +136,17 @@
     padding-right: 10px;
     padding-bottom: 50px;
 }
+
+/*Social Footer*/
+
+.social-media-navigation ul {
+    list-style: none;
+}
+
+.social-media-navigation ul li{
+    display: inline;
+}
+
 
 
 /*Case Studies */
@@ -125,7 +191,238 @@ div.case-study-images img{
     padding-bottom: 2px;
 }
 
+/*Contact Us*/
+.contact-us #content {
+    max-width: 700px;
+    margin: auto;
+}
 
+
+.nf-form-title h3{
+    display: none;
+}
+
+.nf-field-label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#nf-field-12 {
+    background: none repeat scroll 0 0 #45ac9d;
+    float: right;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 70px;
+    font-size: 20px;
+}
+
+/*About Page*/
+
+.about-page-background {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left bottom / cover rgba(0, 0, 0, 0);
+    height: 250px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.aboutpage-hero {
+	text-align:center;
+    width: 800px;
+    margin: auto;
+}
+
+.aboutpage-hero h1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 16px 0 80px;
+}
+
+.aboutpage-hero h1 span {
+    color: #45ac9d;
+}
+.our-services {
+    max-width: 500px;
+    margin: auto;
+}
+
+.our-services h6 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.our-services h5 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+}
+.about-page-services h2 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-page-services h5 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: normal; 
+    line-height: 30px;  
+}
+.left-image1, .right-image2, .left-image3, .right-image4 {
+    margin: 50px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.service1-images, .service2-images, .service3-images, .service4-images{
+    float: left;
+    width: 300px;
+
+}
+.service1-images img, .service2-images img, .service3-images img, .service4-images img{
+    float: left;
+    padding: 20px 20px;
+    margin: 20px 10px;
+
+}
+
+.service1, .service2, .service3, .service4 {
+    width: 580px;
+    float: left;
+}
+.about-page-contact {
+    margin: 70px;
+}
+
+.about-page-contact-us {
+    float: left;
+    width: 600px;
+}
+.about-page-contact-us h2{
+    margin: 0 auto;
+}
+
+.about-page-contact-us h2, .about-page-contact-us a {
+    text-align: center;
+}
+
+.site-footer {
+    clear: both;
+}
+
+/*404 Page*/
+.page-background {
+    background: url("img/sadcat.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.page-header-error {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.page-header-error h1{
+    text-align: center;
+}
+
+.page-title {
+    color: #45ac9d
+
+}
+
+.error-message {
+    width: 70%;
+}
+
+.page-background h2 {
+    color: #45ac9d;
+    font-family: 'Montserrat';
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 100px;
+}
+
+.page-background h4 {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: left;
+    margin: 30px 100px 0;
+}
+
+.page-background p {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 100px 0;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.search-404 #searchsubmit{
+    background: none repeat scroll 0 0 #45ac9d;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 30px 0 0;
+}
+
+.search-404 #s {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.suggestions h2 {
+    color: #45ac9d;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px;
+}
+.suggestions p {
+    background: none repeat scroll 0 0 #45ac9d;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+}
+
+
+/*Sidebar*/
+
+#searchsubmit {
+    background: #45ac9d;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.mc4wp-form-fields input[type=submit]{
+    background: #45ac9d;
+    color: #ffffff;
+}
+
+.mc4wp-form-fields p label {
+    margin: 20px 0;
+}
 
 
 

@@ -506,6 +506,8 @@ h1 {
 
 #masthead nav {
     float: right;
+	margin: 0;
+    text-transform: uppercase;
 }
 
 #masthead nav ul {
