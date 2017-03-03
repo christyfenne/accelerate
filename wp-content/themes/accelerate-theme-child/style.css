@@ -197,6 +197,23 @@ div.case-study-images img{
     margin: auto;
 }
 
+.confirmation #content h2 {
+    display: none;
+}
+
+.confirmation #content h1 {
+    color: #45ac9d;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+}
+
+.confirmation #content p {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-align: center;
+}
 
 .nf-form-title h3{
     display: none;

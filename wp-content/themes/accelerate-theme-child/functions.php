@@ -52,9 +52,20 @@ function accelerate_body_classes( $classes ) {
   if (is_page('contact-us') ) {
     $classes[] = 'contact-us';
   }
+ if (is_page('confirmation') ) {
+    $classes[] = 'confirmation';
+  }
+
     return $classes;
+
+
+
      
 }
+
+
+
+
 
 
 function accelerate_theme_child_widget_init() {
